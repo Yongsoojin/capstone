@@ -9,11 +9,17 @@ def select(tableName, column, searchCondition) :
     # searchCondition   => 검색하고자 하는 데이터의 조건(where)
     # sqlSentence       => sql select 문 
     
+    
     # DB 연결
     con = pymysql.connect(host='localhost', user='root', password='111111', db='capstone', charset='utf8', port=3305)
     cur = con.cursor()
 
+
     # print('DB 연결 성공')
+
+    # print(tableName)
+    # print(column)
+    # print(searchCondition)
 
     # sqlSentence
     if searchCondition == 0 :
