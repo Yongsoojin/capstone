@@ -16,17 +16,17 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 # 여러 개의 파이썬 파일 실행(서버와 통신)
-url = 'http://localhost:5000/api/callPythonScripts/manyPythonFile'
-response = requests.get(url)
+# url = 'http://localhost:5000/api/callPythonScripts/manyPythonFile'
+# response = requests.get(url)
 
-if response.status_code == 200:
-    data = response.json()
-    # data['result'] = Python scripts executed successfully
-    print(data['result'])
-    # Test : 터미널에 해당 값이 입력 됨
-    print("이건 filter.py 입니다.")
-else:
-    print(f"Failed to call Python scripts. Status code: {response.status_code}")
+# if response.status_code == 200:
+#     data = response.json()
+#     # data['result'] = Python scripts executed successfully
+#     print(data['result'])
+#     # Test : 터미널에 해당 값이 입력 됨
+#     print("이건 filter.py 입니다.")
+# else:
+#     print(f"Failed to call Python scripts. Status code: {response.status_code}")
 
 
 
@@ -411,9 +411,9 @@ def filter(filter, img_url, shareFolderName, userData) :
 
 
 
-# filter('mosaic_not_auto', 'C:/Users/Photocate/친구들이랑/place-none/2022-08-23/3.jpg', '친구들이랑', 'sj')
+filter('mosaic_not_auto', 'C:/Users/Photocate/친구들이랑/place-none/2022-08-23/3.jpg', '친구들이랑', 'sj')
 
-# print("hello World!")
+# print("hello 바나나!")
 
 
 

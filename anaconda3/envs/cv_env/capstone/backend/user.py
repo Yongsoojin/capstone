@@ -18,23 +18,26 @@ import os
 
 
 # 클라이언트 & 서버와 입력매개변수 연결 확인
-def python_function(param1, param2, param3) :
+def python_function() :
+    # 명령줄 인수로부터 전달된 값 가져오기
+    param1 = sys.argv[1]
+    param2 = sys.argv[2]
+    param3 = sys.argv[3]
     try :
         # 파이썬 함수에서 수행할 작업 수행
         result = select.select(param1, param2, param3)
 
         # 결과 출력(표준 출력으로 전송)
-        print(result)
+        # print(result)
         # sys.stdout.flush(result)
+
+        return result
+
     except Exception as e :
         print('error message : ', e)
         # import traceback
         # traceback.print_exc()
 
-# 명령줄 인수로부터 전달된 값 가져오기
-param1 = sys.argv[1] if len(sys.argv) > 1 else None
-param2 = sys.argv[2] if len(sys.argv) > 2 else None
-param3 = sys.argv[3] if len(sys.argv) > 3 else None
 
 # param1 = 'user'
 # param2 = '*'
@@ -42,10 +45,21 @@ param3 = sys.argv[3] if len(sys.argv) > 3 else None
 
 
 # 파이썬 함수 호출
-python_function(param1, param2, param3)
+# python_function(param1, param2, param3)
 
+if __name__ == '__main__' :
+    fcResult = python_function()
 
-# print("진짜 이러지마 나 화나")
+    # server_url = 'http://localhost:5000/api/receivePythonResult'
+    # data_to_send = fcResult
+
+    # HTTP POST 요청으로 데이터 전송
+    # response = requests.post(server_url, json=data_to_send)
+
+    # 응답 출력
+    print(json.dumps(fcResult))
+    # print(response.json())
+    # print(fcResult)
 
 
 
