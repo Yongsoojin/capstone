@@ -3,7 +3,7 @@
 
 <br><br>
 <p align="center">
-![mainlogo](https://github.com/Yongsoojin/capstone/assets/87532431/97dfdfdd-a100-420a-9482-b49bc8bd65c1)
+<img src="https://github.com/Yongsoojin/capstone/assets/87532431/97dfdfdd-a100-420a-9482-b49bc8bd65c1.jpg" width="300" height="300" />
 <br><br>
 
 </p>
