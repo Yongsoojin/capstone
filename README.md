@@ -1,11 +1,11 @@
-<img width="1280" alt="사진편집페이지" src="https://github.com/Yongsoojin/capstone/assets/87532431/b897e761-fa69-4db4-9b40-cecee0c0c3cf"><br><br>
+
 ## PHOTOCATE - 메타데이터를 기반으로 한 사진 분류와 필터처리 효과를 통한 사진편집을 할 수 있는 웹사이트
 
 <br><br>
 <p align="center">
- <img src="https://github.com/puputia/Ani-wana/assets/87532431/9448f267-695a-49ce-845b-3a9b013dc051.png" />
+![mainlogo](https://github.com/Yongsoojin/capstone/assets/87532431/97dfdfdd-a100-420a-9482-b49bc8bd65c1)
 <br><br>
-<a href="https://aniwana.swygbro.com/">애니와나 사이트(바로가기)</a>
+
 </p>
 <br><br>
 
