@@ -69,10 +69,11 @@ Photo Edit 페이지로 자동이동하며 편집이 가능함.<br>
 <br><br>
 
 ## 📹 시연 영상 
-![홈페이지 작동 영상](https://github.com/Yongsoojin/capstone/assets/87532431/19cd030f-828c-4612-9a7a-aa0bf96a37e7)
-
+<p align="center">
+  ![홈페이지 작동 영상](https://github.com/Yongsoojin/capstone/assets/87532431/19cd030f-828c-4612-9a7a-aa0bf96a37e7)
+</p>
  
-
+<br><br>
 
 
 ## 각 페이지 
