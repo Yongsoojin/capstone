@@ -72,8 +72,7 @@ Photo Edit 페이지로 자동이동하며 편집이 가능함.<br>
 
   [시연영상 바로가기](https://youtu.be/ii06mfJS2Q8)
   
-#### 용량 & 화질 관계상 링크로 재업로드
-https://veed.io/view/642bc3f0-984e-4388-b59a-68536ce17143
+
  
 <br><br>
 
